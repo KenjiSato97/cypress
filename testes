@@ -1,0 +1,11 @@
+Titulo:Login válido
+Descrição:Logar com login válido
+URL:https://www.saucedemo.com/
+Etapas para reproduzir:Entrar na URL, inserir usuário e senha válidos, clicar em login
+Comportamento esperado:Redirecionar para a página inicial do sistema
+
+Titulo:Login inválido
+Descrição:Logar com login inválido
+URL:https://www.saucedemo.com/
+Etapas para reproduzir:Entrar na URL, inserir usuário e senha inválidos, clicar em login
+Comportamento esperado:Exibir mensagem de erro informando que o login é inválido

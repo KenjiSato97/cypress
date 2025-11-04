@@ -1,0 +1,8 @@
+@"
+node_modules/
+cypress/downloads/
+.env
+.vscode/
+.DS_Store
+npm-debug.log
+"@ | Out-File -Encoding utf8 .gitignore
