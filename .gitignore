@@ -1,8 +1,30 @@
-@"
+# Node
 node_modules/
-cypress/downloads/
-.env
-.vscode/
-.DS_Store
 npm-debug.log
-"@ | Out-File -Encoding utf8 .gitignore
+yarn-error.log
+package-lock.json
+pnpm-lock.yaml
+
+# Cypress
+cypress/downloads/
+cypress/videos/
+cypress/screenshots/
+
+# Environment files
+.env
+
+# IDEs and editor folders
+.vscode/
+.idea/
+.gitignore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+
+# Local test artifacts
+coverage/
+reports/
