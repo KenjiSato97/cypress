@@ -19,11 +19,18 @@ Funcionalidade: Login de Usuário
         Então o usuário deve ver uma mensagem de erro indicando credenciais inválidas
         E o usuário permanece na página de login do swag labs
 
-    Cenário: Tentativa de login com campos vazios
+    Cenário: Tentativa de login com campo username vazio e a senha correta
         Dado que o usuário está na página de login do swag labs
         Quando o usuário deixa o campo de nome de usuário vazio
-        E o usuário deixa o campo de senha vazio
+        E o usuário insere a senha "secret_sauce"
         E o usuário clica no botão de login
-        Então o usuário deve ver uma mensagem de erro indicando que os campos são obrigatórios
+        Então o usuário deve ver uma mensagem de erro indicando que o campo de usuário é obrigatório
         E o usuário permanece na página de login do swag labs
     
+     Cenário: Tentativa de login com campo username correto e a senha vazia
+        Dado que o usuário está na página de login do swag labs
+        Quando o usuário insere o nome de usuário "standard_user"
+        E o usuário deixa o campo de senha vazio
+        E o usuário clica no botão de login
+        Então o usuário deve ver uma mensagem de erro indicando que o campo de senha é obrigatório
+        E o usuário permanece na página de login do swag labs
