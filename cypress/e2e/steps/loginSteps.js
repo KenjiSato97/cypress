@@ -3,7 +3,7 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 
 Given('que o usuário está na página dp gov.br', () => {
-  cy.visit('https://www.gov.br/pt-br');
+  cy.visit('https://www.saucedemo.com/');
 });
 
 When('o usuário insere o nome de usuário "standard_user"', () => {
