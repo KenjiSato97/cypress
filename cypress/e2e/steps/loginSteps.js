@@ -2,8 +2,8 @@
 
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 
-Given('que o usuário está na página de login do swag labs', () => {
-  cy.visit('https://www.saucedemo.com/');
+Given('que o usuário está na página dp gov.br', () => {
+  cy.visit('https://www.gov.br/pt-br');
 });
 
 When('o usuário insere o nome de usuário "standard_user"', () => {
